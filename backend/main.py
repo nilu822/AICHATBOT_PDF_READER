@@ -4,6 +4,9 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 from pathlib import Path
 from dotenv import load_dotenv
+from backend.rag.rag_pipeline import load_pdf_and_store, answer_query
+
+
 
 from rag.rag_pipeline import load_pdf_and_store, answer_query
 
