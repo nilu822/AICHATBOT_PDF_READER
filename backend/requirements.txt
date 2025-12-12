@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+jinja2
+openai
+python-dotenv
+sentence-transformers
+qdrant-client
+PyPDF2
